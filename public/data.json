@@ -1,0 +1,71 @@
+[
+  {
+    "_id": "1a2b3c4d5e6f7g8h9i",
+    "projectName": "Rocket Rock",
+    "description": "Rocket Rock is a website for selling spacecraft engines and other parts of spaceships. This site offers a wide range of products for space enthusiasts and professionals alike. From propulsion systems to structural components, Rocket Rock provides everything needed to build or maintain a spacecraft. The website features detailed descriptions and specifications for each product, ensuring that customers can make informed decisions. Additionally, Rocket Rock offers a user-friendly interface, making it easy to navigate and find the required items. With a secure checkout process and reliable shipping options, Rocket Rock aims to be the go-to source for all space-related hardware. The site also includes a blog with the latest news and advancements in space technology, providing valuable insights and updates to its users.",
+    "liveSiteLink": "https://rocket-rock-cce05.web.app/",
+    "github-backend-link": "https://github.com/MohammadIqbalHossain/rocket-rock-server-site",
+    "github-client-link": "https://github.com/MohammadIqbalHossain/rocket-rock-client-site",
+    "image1": "https://i.ibb.co/zJXcftt/breathing-knowlage.png",
+    "image2": "https://i.ibb.co/d212CWN/Screenshot-2023-01-01-002135.png",
+    "image3": "https://i.ibb.co/BjdyYLw/rocket-rock-2.png",
+    "tagline": "Breath in space.",
+    "technologies": [
+      "javaScript",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "React",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "Bootsstrap"
+    ]
+  },
+  {
+    "_id": "2b3c4d5e6f7g8h9i0j",
+    "projectName": "MarchEasy",
+    "description": "MarchEasy is an innovative platform designed to simplify the process of organizing and managing events, marches, and protests. The website offers tools and resources for event coordinators to plan, promote, and execute successful events. Users can create detailed event pages, manage registrations, and communicate with participants through the platform. MarchEasy also provides analytics and reporting features, allowing organizers to track attendance, engagement, and overall event performance. With a focus on social activism, MarchEasy aims to empower communities and advocacy groups by providing a comprehensive solution for event management. The platform's intuitive design and robust functionality make it an essential tool for anyone looking to organize impactful events.",
+    "liveSiteLink": "https://marcheasy.com",
+    "github-backend-link": "https://github.com/MarchEasy/backend",
+    "github-client-link": "https://github.com/MarchEasy/client",
+    "image1": "https://i.ibb.co/album/marcheasy.png",
+    "image2": "https://i.ibb.co/album/marcheasy2.png",
+    "image3": "https://i.ibb.co/album/marcheasy3.png",
+    "tagline": "Make your march easy.",
+    "technologies": [
+      "javaScript",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "React",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "Bootsstrap"
+    ]
+  },
+  {
+    "_id": "3c4d5e6f7g8h9i0j1k",
+    "projectName": "PickTimely",
+    "description": "PickTimely is a scheduling and appointment booking platform designed to help businesses and professionals manage their time more effectively. The website offers a range of features, including calendar integration, automated reminders, and client management tools. With PickTimely, users can easily schedule appointments, set availability, and manage bookings from a single, centralized platform. The intuitive interface and customizable settings make it easy to tailor the platform to individual needs. Whether you are a freelancer, a small business owner, or part of a larger organization, PickTimely provides the tools you need to streamline your scheduling process and improve efficiency. The platform also includes robust reporting and analytics, allowing users to track appointment trends and make data-driven decisions.",
+    "liveSiteLink": "https://picktimely.com",
+    "github-backend-link": "https://github.com/PickTimely/backend",
+    "github-client-link": "https://github.com/PickTimely/client",
+    "image1": "https://i.ibb.co/album/picktimely.png",
+    "image2": "https://i.ibb.co/album/picktimely2.png",
+    "image3": "https://i.ibb.co/album/picktimely3.png",
+    "tagline": "Pick your time, timely.",
+    "technologies": [
+      "javaScript",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "React",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "Bootsstrap"
+    ]
+  }
+]

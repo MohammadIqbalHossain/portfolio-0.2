@@ -1,0 +1,98 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6rem;
+}
+
+.header__content {
+  padding: 0 5rem;
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+.header__title {
+  top: -50%;
+  font-size: 2rem;
+}
+
+.header__img {
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  border-radius: 0.9rem;
+}
+
+.header-button {
+  padding: 0.6rem 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  border: 0.1rem solid hsl(0, 16%, 68%);
+  font-weight: 200px;
+  font-family: "poppins", sans-serif;
+  border-radius: 0.2rem;
+}
+
+.linkedin {
+  background-color: rgb(34, 31, 31);
+  color: rgb(237, 232, 232);
+}
+
+.linkedin:hover {
+  background-color: black;
+  transition: color 0.5s ease-in-out;
+}
+
+.github {
+  margin-left: 1rem;
+}
+
+.github:hover {
+  background-color: rgb(237, 232, 232);
+  transition: color 0.5s ease-in-out;
+}
+@media screen and (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    margin: 0 0.7rem;
+  }
+
+  .header__content {
+    padding: 0;
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .header__title {
+    font-size: 1rem;
+  }
+
+  .header-buttons {
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 750px) {
+  .header {
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .header__content {
+    padding: 2rem 0.9rem;
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  .header__img_container {
+    padding: 2.7rem 3rem;
+  }
+
+  .header__title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "index": "1",
+    "title": "Extraordinary HTML Tips You Probably Overlooked",
+    "article": "Some extraordinary tips on HTML that are so common and they doesn't uses but useful: In this article, we will explore some commonly overlooked but highly useful HTML tips. These tips can significantly enhance your web development skills. For example, using semantic HTML tags like <article>, <section>, and <aside> can improve both your code's readability and your site's SEO. Another tip is to always include the alt attribute for images, which is crucial for accessibility. Additionally, utilizing the <picture> element can help you serve different images based on the device's screen size, ensuring a better user experience. These small practices can make a big difference in the quality of your HTML code.",
+    "category": "HTML",
+    "likes": "34",
+    "dislikes": "3",
+    "comments": [
+      {
+        "userName": "Alice",
+        "email": "alice@mail.com",
+        "comment": "Great tips! I never realized the importance of semantic tags.",
+        "userPictureUrl": "https://example.com/user-alice.jpg",
+        "facebookUrl": "https://facebook.com/alice",
+        "twitterUrl": "https://twitter.com/alice"
+      },
+      {
+        "userName": "Bob",
+        "email": "bob@mail.com",
+        "comment": "Very helpful article. Thanks for the insights!",
+        "userPictureUrl": "https://example.com/user-bob.jpg",
+        "facebookUrl": "https://facebook.com/bob",
+        "twitterUrl": "https://twitter.com/bob"
+      }
+    ]
+  },
+  {
+    "index": "2",
+    "title": "Harnessing HTML5 Features for Modern Web Development",
+    "article": "How to Use HTML5 Features for Modern Web Development: HTML5 introduces several powerful features that can greatly enhance your web development process. One such feature is the <canvas> element, which allows you to draw graphics directly on a web page. This can be used for creating animations, games, or data visualizations. Another useful feature is the <video> and <audio> elements, which enable you to embed multimedia content without relying on external plugins. HTML5 also includes the <datalist> element, which provides an autocomplete feature for input fields. These features, along with others like local storage and offline capabilities, make HTML5 an essential tool for modern web development.",
+    "category": "HTML",
+    "likes": "37",
+    "dislikes": "2",
+    "comments": [
+      {
+        "userName": "Charlie",
+        "email": "charlie@mail.com",
+        "comment": "HTML5 is a game-changer! Thanks for the detailed article.",
+        "userPictureUrl": "https://example.com/user-charlie.jpg",
+        "facebookUrl": "https://facebook.com/charlie",
+        "twitterUrl": "https://twitter.com/charlie"
+      },
+      {
+        "userName": "Dana",
+        "email": "dana@mail.com",
+        "comment": "I found the section on <canvas> particularly interesting.",
+        "userPictureUrl": "https://example.com/user-dana.jpg",
+        "facebookUrl": "https://facebook.com/dana",
+        "twitterUrl": "https://twitter.com/dana"
+      }
+    ]
+  },
+  {
+    "index": "3",
+    "title": "Boost Your SEO with HTML Semantic Tags",
+    "article": "Understanding HTML Semantic Tags for Better SEO: Semantic HTML tags, such as <header>, <footer>, <main>, and <nav>, play a crucial role in improving your website's SEO. These tags help search engines understand the structure and content of your web pages, making it easier for them to index and rank your site. For instance, the <header> tag typically contains introductory content or navigational links, while the <footer> tag includes information about the author, copyright data, or contact details. Using these tags appropriately can enhance your site's accessibility and SEO, leading to better search engine rankings and a more user-friendly experience.",
+    "category": "HTML",
+    "likes": "29",
+    "dislikes": "1",
+    "comments": [
+      {
+        "userName": "Eve",
+        "email": "eve@mail.com",
+        "comment": "This article really helped me understand the importance of semantic tags.",
+        "userPictureUrl": "https://example.com/user-eve.jpg",
+        "facebookUrl": "https://facebook.com/eve",
+        "twitterUrl": "https://twitter.com/eve"
+      },
+      {
+        "userName": "Frank",
+        "email": "frank@mail.com",
+        "comment": "A must-read for anyone looking to improve their site's SEO.",
+        "userPictureUrl": "https://example.com/user-frank.jpg",
+        "facebookUrl": "https://facebook.com/frank",
+        "twitterUrl": "https://twitter.com/frank"
+      }
+    ]
+  },
+  {
+    "index": "4",
+    "title": "Top 5 HTML Form Elements You Should Know",
+    "article": "Forms are an essential part of web development, allowing users to submit data and interact with your website. HTML provides several form elements that you should be familiar with. The <input> element is the most versatile, with various types such as text, email, password, and number. The <select> element creates a drop-down list, while the <textarea> element is used for multi-line text input. The <button> element creates clickable buttons, and the <label> element improves accessibility by associating text with form controls. Understanding and using these form elements effectively can enhance the user experience and functionality of your web forms.",
+    "category": "HTML",
+    "likes": "50",
+    "dislikes": "4",
+    "comments": [
+      {
+        "userName": "Grace",
+        "email": "grace@mail.com",
+        "comment": "Forms are so crucial, and this article covers the basics perfectly.",
+        "userPictureUrl": "https://example.com/user-grace.jpg",
+        "facebookUrl": "https://facebook.com/grace",
+        "twitterUrl": "https://twitter.com/grace"
+      },
+      {
+        "userName": "Hank",
+        "email": "hank@mail.com",
+        "comment": "Great explanations and examples of form elements!",
+        "userPictureUrl": "https://example.com/user-hank.jpg",
+        "facebookUrl": "https://facebook.com/hank",
+        "twitterUrl": "https://twitter.com/hank"
+      }
+    ]
+  },
+  {
+    "index": "5",
+    "title": "Best Practices for Creating Responsive HTML Layouts",
+    "article": "Responsive web design is essential in today's multi-device world. One of the best practices for creating responsive layouts is using media queries. Media queries allow you to apply CSS styles based on the device's screen size, orientation, and resolution. For example, you can use a media query to adjust the layout for screens smaller than 600px. Another practice is to use flexible grid layouts with CSS Grid or Flexbox, which allow you to create adaptable and fluid layouts. Additionally, consider using responsive units like percentages, ems, and rems instead of fixed units like pixels. These practices ensure that your website looks great on any device.",
+    "category": "HTML",
+    "likes": "42",
+    "dislikes": "3",
+    "comments": [
+      {
+        "userName": "Ivy",
+        "email": "ivy@mail.com",
+        "comment": "Responsive design is crucial, and this article provides excellent guidance.",
+        "userPictureUrl": "https://example.com/user-ivy.jpg",
+        "facebookUrl": "https://facebook.com/ivy",
+        "twitterUrl": "https://twitter.com/ivy"
+      },
+      {
+        "userName": "Jack",
+        "email": "jack@mail.com",
+        "comment": "I learned a lot about media queries and flexible grid layouts.",
+        "userPictureUrl": "https://example.com/user-jack.jpg",
+        "facebookUrl": "https://facebook.com/jack",
+        "twitterUrl": "https://twitter.com/jack"
+      }
+    ]
+  },
+  {
+    "index": "6",
+    "title": "HTML5 Canvas: Drawing Graphics on the Web",
+    "article": "The HTML5 <canvas> element allows you to draw graphics directly on a web page using JavaScript. This can be used for creating animations, games, and interactive data visualizations. To get started, you need to create a <canvas> element in your HTML and use the getContext('2d') method in JavaScript to obtain a 2D drawing context. You can then use various drawing methods, such as fillRect, strokeRect, and drawImage, to create shapes, lines, and images. The <canvas> element provides a powerful and flexible way to create dynamic graphics on the web.",
+    "category": "HTML",
+    "likes": "39",
+    "dislikes": "2",
+    "comments": [
+      {
+        "userName": "Kate",
+        "email": "kate@mail.com",
+        "comment": "Canvas is so powerful! Thanks for the detailed tutorial.",
+        "userPictureUrl": "https://example.com/user-kate.jpg",
+        "facebookUrl": "https://facebook.com/kate",
+        "twitterUrl": "https://twitter.com/kate"
+      },
+      {
+        "userName": "Leo",
+
+        "email": "leo@mail.com",
+        "comment": "I can't wait to try out the drawing techniques mentioned here.",
+        "userPictureUrl": "https://example.com/user-leo.jpg",
+        "facebookUrl": "https://facebook.com/leo",
+        "twitterUrl": "https://twitter.com/leo"
+      }
+    ]
+  },
+  {
+    "index": "7",
+    "title": "An Introduction to HTML5 Web Storage",
+    "article": "HTML5 introduces a new way to store data on the client-side with web storage. There are two types of web storage: localStorage and sessionStorage. localStorage stores data with no expiration date, while sessionStorage stores data for the duration of the page session. You can use these storage options to store user preferences, form data, and other information that needs to persist across page reloads. The data is stored as key-value pairs, and you can use methods like setItem, getItem, and removeItem to manage the data. Web storage is a simple and efficient way to improve the performance and user experience of your web applications.",
+    "category": "HTML",
+    "likes": "31",
+    "dislikes": "1",
+    "comments": [
+      {
+        "userName": "Mia",
+        "email": "mia@mail.com",
+        "comment": "Web storage is such a useful feature. Thanks for the introduction!",
+        "userPictureUrl": "https://example.com/user-mia.jpg",
+        "facebookUrl": "https://facebook.com/mia",
+        "twitterUrl": "https://twitter.com/mia"
+      },
+      {
+        "userName": "Nate",
+        "email": "nate@mail.com",
+        "comment": "This article explains localStorage and sessionStorage really well.",
+        "userPictureUrl": "https://example.com/user-nate.jpg",
+        "facebookUrl": "https://facebook.com/nate",
+        "twitterUrl": "https://twitter.com/nate"
+      }
+    ]
+  },
+  {
+    "index": "8",
+    "title": "Mastering HTML Tables: Tips and Tricks",
+    "article": "HTML tables are used to display tabular data in a structured format. To create a table, you use the <table> element, along with <tr> for table rows, <th> for table headers, and <td> for table cells. You can also use the <caption> element to add a table title and the <thead>, <tbody>, and <tfoot> elements to group different parts of the table. CSS can be used to style tables, such as adding borders, changing the background color, and adjusting the padding. Additionally, consider using responsive table techniques, like overflow scrolling or converting tables to lists, to ensure your tables look good on all devices.",
+    "category": "HTML",
+    "likes": "28",
+    "dislikes": "3",
+    "comments": [
+      {
+        "userName": "Olivia",
+        "email": "olivia@mail.com",
+        "comment": "Great tips on making tables responsive.",
+        "userPictureUrl": "https://example.com/user-olivia.jpg",
+        "facebookUrl": "https://facebook.com/olivia",
+        "twitterUrl": "https://twitter.com/olivia"
+      },
+      {
+        "userName": "Paul",
+        "email": "paul@mail.com",
+        "comment": "I learned a lot about styling tables from this article.",
+        "userPictureUrl": "https://example.com/user-paul.jpg",
+        "facebookUrl": "https://facebook.com/paul",
+        "twitterUrl": "https://twitter.com/paul"
+      }
+    ]
+  }
+]

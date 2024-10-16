@@ -33,16 +33,27 @@ const DetailArticle = () => {
       return <div>data not found.</div>
   }
 
+  const slices = [
+    { start: 0, end: 1, className: 'first-character' }, // first character
+    { start: 1, end: 300 },
+    { start: 300, end: 700 },
+    { start: 700, end: 1000 },
+    { start: 1000, end: 1700 },
+    { start: 1700, end: 2300 },
+    { start: 2300, end: 2700 },
+    { start: 2700, end: 3000 },
+    { start: 3000, end: 3500 },
+    { start: 3500, end: 4000 },
+  ];
+
 
   return (
      <div className="article__detail-wrapper">
         {
             sortedArticle.map((data) => <div key={data.index}>
-                {/* <h3 className="article__header"><LuLink /> {data.title}</h3>
-                <p>{data.article}</p> */}
 
                 <div className='article__header'>
-                    <h1>The Title</h1>
+                    <h1>The Article</h1>
                     <h2 className="article__author">
                         <Link>
                           by Iqbal
@@ -53,24 +64,29 @@ const DetailArticle = () => {
                 <div className='article__content'>
                    <div className='date'>
                      <span>April</span>
-                     <span>6</span>
+                     <span className='day'>{data.index}</span>
                    </div>
 
                    <div className='article'>
                       <h2>
-                        Prolouge
+                        {data.title}
                       </h2>
                       <h3>
                          Posted by <Link>Iqbal</Link>
                       </h3>
-                      <p> 
-                        <span className='first-charecter'>{data.article.slice(0, 1)}</span>
-                        {data.article.slice(1, 300)}
+
+                      {slices.map((slice, index) => (
+                      <p key={index}>
+                  {slice.className ? (
+                        <span className={slice.className}>
+                          {data.article.slice(slice.start, slice.end)}
+                        </span>
+                      ) : (
+                        data.article.slice(slice.start, slice.end)
+                      )}
                       </p>
-                      <br></br>
-                      <p>
-                      {data.article.slice(300, 700)}
-                      </p>
+                      ))}
+
                    </div>
                 </div>   
             </div>)

@@ -1,1 +1,11 @@
+.get-in-touch {
+  float: right;
+  position: fixed;
+  bottom: 20px;
+  right: 5rem;
+  z-index: 1000;
 
+  @media screen and (max-width: 450px) {
+    right: 2rem;
+  }
+}

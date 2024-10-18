@@ -37,40 +37,44 @@ export default function Navbar1() {
       >
         <ul>
           <li>
-            <NavLink 
-               to='/'
-               className='nav__link'
-               style={({isActive}) => isActive ? {color: 'blue'} : {}}
-               onClick={() => setIsNavExpanded(false)}>
+            <NavLink
+              to="/"
+              className="nav__link"
+              style={({ isActive }) => (isActive ? { color: "blue" } : {})}
+              onClick={() => setIsNavExpanded(false)}
+            >
               Home
             </NavLink>
           </li>
           <li>
-          <NavLink
-              to='/about'
-              className='nav__link'
-              style={({isActive}) => isActive ? {color: 'blue'} : {}}
-              onClick={() => setIsNavExpanded(false)}>
-            About
+            <NavLink
+              to="/about"
+              className="nav__link"
+              style={({ isActive }) => (isActive ? { color: "blue" } : {})}
+              onClick={() => setIsNavExpanded(false)}
+            >
+              About
             </NavLink>
           </li>
           <li>
-          <NavLink
-              to='/article'
-              className='nav__link'
-              style={({isActive}) => isActive ? {color: 'blue'} : {}}
-              onClick={() => setIsNavExpanded(false)}>
-            Article
+            <NavLink
+              to="/article"
+              className="nav__link"
+              style={({ isActive }) => (isActive ? { color: "blue" } : {})}
+              onClick={() => setIsNavExpanded(false)}
+            >
+              Article
             </NavLink>
           </li>
           <li>
-          <NavLink 
-            to='/Contact' 
-            className='nav__link'
-            style={({isActive}) => isActive ? {color: 'blue'} : {}}
-            onClick={() => setIsNavExpanded(false)}>
+            <NavLink
+              to="/Contact"
+              className="nav__link"
+              style={({ isActive }) => (isActive ? { color: "blue" } : {})}
+              onClick={() => setIsNavExpanded(false)}
+            >
               Contact
-          </NavLink>
+            </NavLink>
           </li>
         </ul>
       </div>

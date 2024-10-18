@@ -1,89 +1,114 @@
-
-import './Projects.scss';
+import "./Projects.scss";
 import { IoLogoGithub } from "react-icons/io";
 import { FaPlay } from "react-icons/fa";
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
-
-
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('data.json')
-    .then(res => res.json())
-    .then(data => setData(data));
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
   }, []);
 
   // eslint-disable-next-line no-unused-vars
   const checkTech = (index) => {
-    if(index === 0){
+    if (index === 0) {
       return ["HTML", "CSS", "MongoDB"];
-    }
-    else if(index === 1) {
+    } else if (index === 1) {
       return ["HTML", "CSS", "bootsstap"];
-    }
-    else if(index === 2) {
-      return ["HTML", "CSS",];
-    }
-    else {
+    } else if (index === 2) {
+      return ["HTML", "CSS"];
+    } else {
       return [];
     }
-  }
+  };
 
-  const usedTech = data.map((indexData) => indexData.technologies.filter(tech => !["HTML", "CSS", "Bootsstrap"].includes(tech)));
+  const usedTech = data.map((indexData) =>
+    indexData.technologies.filter(
+      (tech) => !["HTML", "CSS", "Bootsstrap"].includes(tech),
+    ),
+  );
 
   const flattedTech = usedTech.flat();
   const uniqueTech = [...new Set(flattedTech)];
 
-
   return (
-    <div className='container'>
+    <div className="container">
       <h2 className="projects__title">Projects</h2>
-      <p className='projects__tagline'>Some projects I have working on and currently working...</p>
-       <ul className='cards'>
-          {
-            data.map((indexData, index) => <li className='card' id={index === 0 ? 'card__1' : index === 2 ? 'card__2': index === 3 ? 'card__3' : ''} key={indexData._id}>
-                  <div className='card-body'>
-             {/* <div className="card__img" id="img01"></div> */}
+      <p className="projects__tagline">
+        Some projects I have working on and currently working...
+      </p>
+      <ul className="cards">
+        {data.map((indexData, index) => (
+          <li
+            className="card"
+            id={
+              index === 0
+                ? "card__1"
+                : index === 2
+                  ? "card__2"
+                  : index === 3
+                    ? "card__3"
+                    : ""
+            }
+            key={indexData._id}
+          >
+            <div className="card-body">
+              {/* <div className="card__img" id="img01"></div> */}
               <div className="card__content">
+                <div className="card__theme-header">
+                  <p className="card__content-theme">{indexData.tagline}</p>
+                  <div className="view-btns">
+                    <a
+                      href=""
+                      className="github__view-btn"
+                      title="Open on Github"
+                    >
+                      <IoLogoGithub />
+                    </a>
 
-                 <div className='card__theme-header'>
-                   <p className="card__content-theme">{indexData.tagline}</p>
-                   <div className='view-btns'>
-                       <a href="" className='github__view-btn' title='Open on Github'>
-                       <IoLogoGithub />
-                       </a>
-
-                       <a href="" className='preview-btn' title='Preview'>
-                       <FaPlay />
-                       </a>
-                   </div>
-                 </div>
-
-                  <h2 className="card__content-header">{indexData.projectName}</h2>
-                  <p className="card__content-paragraph">{indexData.description.slice(0, 200)}...
-                   <Link to={`/details/${indexData._id}`} className="card__content-link">Read</Link>
-                  </p>
-
-                  <div className='card__content-skills'>
-                  <p className='projects__tagline'>Technologies used:</p>
-                  {uniqueTech.map((projectTech, index) => (
-                    <button key={`${projectTech}-${index}`} className="card__content-button">
-                      <a href="#" target="_blank" rel="noopener noreferrer">{projectTech}</a>
-                    </button>
-                  ))}  
+                    <a href="" className="preview-btn" title="Preview">
+                      <FaPlay />
+                    </a>
                   </div>
+                </div>
 
-                  
-             </div>
+                <h2 className="card__content-header">
+                  {indexData.projectName}
+                </h2>
+                <p className="card__content-paragraph">
+                  {indexData.description.slice(0, 200)}...
+                  <Link
+                    to={`/details/${indexData._id}`}
+                    className="card__content-link"
+                  >
+                    Read
+                  </Link>
+                </p>
+
+                <div className="card__content-skills">
+                  <p className="projects__tagline">Technologies used:</p>
+                  {uniqueTech.map((projectTech, index) => (
+                    <button
+                      key={`${projectTech}-${index}`}
+                      className="card__content-button"
+                    >
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        {projectTech}
+                      </a>
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
-            </li>)
-          }
-       </ul>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

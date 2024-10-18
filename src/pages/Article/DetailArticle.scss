@@ -1,136 +1,130 @@
 .article__header {
-  
-   //   background-color: #222222;
-   //   max-width: 1200px;
-     width: 98%;
-     height: 8.8em;
-     overflow: hidden;
-     font-weight: lighter;
+  //   background-color: #222222;
+  //   max-width: 1200px;
+  width: 98%;
+  height: 8.8em;
+  overflow: hidden;
+  font-weight: lighter;
 
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-     color: #ffffff;
-     font-style: italic;
-     font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
 
-     width: 100%;
-     background:#222 url('https://www.toptal.com/designers/subtlepatterns/tactile-noise/');
-     border-bottom: 3px solid #ccc;
+  width: 100%;
+  background: #222
+    url("https://www.toptal.com/designers/subtlepatterns/tactile-noise/");
+  border-bottom: 3px solid #ccc;
 
-     @media screen and (max-width: 500px) {
-        font-size: 0.7rem;
-        height: fit-content;
-        padding: 0.7rem 0;
-     }
+  @media screen and (max-width: 500px) {
+    font-size: 0.7rem;
+    height: fit-content;
+    padding: 0.7rem 0;
+  }
 }
 
-
 .article__author {
-    font-size: 0.9em;
-    font-style: normal;
-    font-family: 'Poppins', sans-serif;
-    color:#ccc;
-    line-height: loose;
-    margin-top: 0.5em;
-    letter-spacing: 5px;
-    font-weight: lighter;
-    width: 40%;
-    text-align: center;
-    padding:0.3em;
-    
-    border-top: gray 1px dotted;
-    border-bottom: gray 1px dotted;
+  font-size: 0.9em;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  color: #ccc;
+  line-height: loose;
+  margin-top: 0.5em;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  width: 40%;
+  text-align: center;
+  padding: 0.3em;
 
-    @media screen and (max-width: 500px) {
-       display: none;
-     }
+  border-top: gray 1px dotted;
+  border-bottom: gray 1px dotted;
+
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 }
 
 .article__content {
-   max-width: 750px;
-   margin: 40px auto;
-   padding: 0;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0;
 }
 
 .date {
-   float: left;
-   width: 10%;
-   color: #444;
-   text-align: center; 
-   span {
-     margin: 0; 
-     line-height: 50%;
-   }
+  float: left;
+  width: 10%;
+  color: #444;
+  text-align: center;
+  span {
+    margin: 0;
+    line-height: 50%;
+  }
 
-   .day {
-      float: left;
-      margin-top: 0.1em;
-      width: 100%;
-      color: #68a9ff;
-      font-size: 200%;
-     }
+  .day {
+    float: left;
+    margin-top: 0.1em;
+    width: 100%;
+    color: #68a9ff;
+    font-size: 200%;
+  }
 
-     @media only screen 
-     and (max-width : 450px) {
-      display: none;
-     }
+  @media only screen and (max-width: 450px) {
+    display: none;
+  }
 }
 
 .article {
-   width: 90%;
-   margin: 0 0 6em 0;
-   float: left;
-   padding: 0 1.3em;
-   border-left: 5px solid #308fd9;
-   font-family: 'poppins', sans-serif;
-  
-   h2 {
-      font-size: 55px;
-      color: #333;
-      margin: 0;
-      font-weight: normal;
+  width: 90%;
+  margin: 0 0 6em 0;
+  float: left;
+  padding: 0 1.3em;
+  border-left: 5px solid #308fd9;
+  font-family: "poppins", sans-serif;
 
-      @media only screen 
-      and (max-width : 450px) {
-         font-size: 3em;
-      }
-   }
+  h2 {
+    font-size: 55px;
+    color: #333;
+    margin: 0;
+    font-weight: normal;
 
-   h3 {
-      font-weight: normal;
-      font-size:16px;
-      color:#888;
-      font-style:italic;
-      margin:0 0 1em 0;
+    @media only screen and (max-width: 450px) {
+      font-size: 3em;
     }
+  }
 
-    p {
-      margin:0;
-      padding-top:8px;
-      color:#555;
-      font-size:1.2em;
-      line-height:150%;
-      text-indent:2em;
-    }
+  h3 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #888;
+    font-style: italic;
+    margin: 0 0 1em 0;
+  }
 
-    @media only screen 
-    and (max-width : 450px) {
-      width: 100%;
-      font-size: 0.8em;
-      border: 0;
-    }
+  p {
+    margin: 0;
+    padding-top: 8px;
+    color: #555;
+    font-size: 1.2em;
+    line-height: 150%;
+    text-indent: 2em;
+  }
 
-   
+  @media only screen and (max-width: 450px) {
+    width: 100%;
+    font-size: 0.8em;
+    border: 0;
+  }
 }
 
 .first-character {
-   float: left;
-   font-size:4em;
-   // line-height: 0.6em;
-   padding-top: 0.12em;
-   padding-right: 0.1em;
-   padding-left: 0;
- }
+  float: left;
+  font-size: 4em;
+  // line-height: 0.6em;
+  padding-top: 0.12em;
+  padding-right: 0.1em;
+  padding-left: 0;
+}

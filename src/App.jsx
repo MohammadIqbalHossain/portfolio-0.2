@@ -5,7 +5,8 @@ import Navbar1 from "./components/Navbar1";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import Article from "./pages/Article/Article";
 import DetailArticle from "./pages/Article/DetailArticle";
-import Contact from "./pages/Contact/Contact";
+import GetInTouch from "./pages/GetInTouch/GetInTouch";
+import Contact from './pages/Contact/Contact';
 import "./App.css";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       </main>
 
       <div className="get-in-touch">
-        <Contact />
+        <GetInTouch />
       </div>
     </Router>
   );

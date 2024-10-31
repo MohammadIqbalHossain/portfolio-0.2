@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, React } from "react";
 import { useParams } from "react-router-dom";
 import "./DetailArticle.scss";
-import { LuLink } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
 const DetailArticle = () => {
@@ -23,6 +22,7 @@ const DetailArticle = () => {
   }, [id]);
 
   if (isLoading) {
+   
     return <div>Loading...</div>;
   }
 

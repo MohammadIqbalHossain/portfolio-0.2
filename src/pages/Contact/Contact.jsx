@@ -2,6 +2,7 @@ import "./Contact.scss";
 import "rsuite/dist/rsuite.min.css";
 import { Popover, Whisper, Button } from "rsuite";
 import { Link } from "react-router-dom";
+import React from 'react';
 
 function Contact() {
   return (
@@ -31,13 +32,13 @@ function Contact() {
                       r="44.899"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#fd5"></stop>
-                      <stop offset=".328" stop-color="#ff543f"></stop>
-                      <stop offset=".348" stop-color="#fc5245"></stop>
-                      <stop offset=".504" stop-color="#e64771"></stop>
-                      <stop offset=".643" stop-color="#d53e91"></stop>
-                      <stop offset=".761" stop-color="#cc39a4"></stop>
-                      <stop offset=".841" stop-color="#c837ab"></stop>
+                      <stop offset="0" stopColor="#fd5"></stop>
+                      <stop offset=".328" stopColor="#ff543f"></stop>
+                      <stop offset=".348" stopColor="#fc5245"></stop>
+                      <stop offset=".504" stopColor="#e64771"></stop>
+                      <stop offset=".643" stopColor="#d53e91"></stop>
+                      <stop offset=".761" stopColor="#cc39a4"></stop>
+                      <stop offset=".841" stopColor="#c837ab"></stop>
                     </radialGradient>
                     <path
                       fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
@@ -51,11 +52,11 @@ function Contact() {
                       gradientTransform="matrix(1 0 0 .6663 0 1.849)"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#4168c9"></stop>
+                      <stop offset="0" stopColor="#4168c9"></stop>
                       <stop
                         offset=".999"
-                        stop-color="#4168c9"
-                        stop-opacity="0"
+                        stopColor="#4168c9"
+                        stopOpacity="0"
                       ></stop>
                     </radialGradient>
                     <path
@@ -93,8 +94,8 @@ function Contact() {
                       y2="43.432"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#0d61a9"></stop>
-                      <stop offset="1" stop-color="#16528c"></stop>
+                      <stop offset="0" stopColor="#0d61a9"></stop>
+                      <stop offset="1" stopColor="#16528c"></stop>
                     </linearGradient>
                     <path
                       fill="url(#awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1)"

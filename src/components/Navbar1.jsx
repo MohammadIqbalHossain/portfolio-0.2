@@ -67,14 +67,7 @@ export default function Navbar1() {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/Contact"
-              className="nav__link"
-              style={({ isActive }) => (isActive ? { color: "blue" } : {})}
-              onClick={() => setIsNavExpanded(false)}
-            >
-              Contact
-            </NavLink>
+              <a className="mail" href="mailto:being.iqbal.hossain@gmail.com?subject=Hello%20Iqbal&body=I%20would%20like%20to%20get%20in%20touch%20with%20you">Contact</a>
           </li>
         </ul>
       </div>

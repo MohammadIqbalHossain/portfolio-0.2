@@ -6,7 +6,7 @@ import ProjectDetails from "./components/Projects/ProjectDetails";
 import Article from "./pages/Article/Article";
 import DetailArticle from "./pages/Article/DetailArticle";
 import GetInTouch from "./pages/GetInTouch/GetInTouch";
-import Contact from './pages/Contact/Contact';
+import About from './pages/About/About';
 import "./App.css";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/details/:id" element={<ProjectDetails />} />
           <Route path="/article" element={<Article />} />
           <Route path="/article/:id" element={<DetailArticle />} />
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/about" element={<About />}></Route>
         </Routes>
       </main>
 

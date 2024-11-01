@@ -1,0 +1,25 @@
+.about__container {
+  background-color: #d1d8d5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem;
+
+  @media screen and (max-width: 750px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.about__content-details {
+  font-size: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

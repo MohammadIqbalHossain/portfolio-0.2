@@ -2,7 +2,7 @@
   --cards: 4;
   --cardHeight: 47vh;
   --cardTopPadding: 1.5em;
-  --cardMargin: 4vw;
+  --cardMargin: 9vw;
 
   --c-gray-100: #fbf8f2;
   --c-gray-200: #fcfdfe;
@@ -132,7 +132,7 @@
 }
 
 .card__content-paragraph {
-  font-size: 2vmin;
+  font-size: 2.5vmin;
   line-height: 1.7;
   font-weight: 300;
   margin-bottom: 2.5vmin;
@@ -140,7 +140,7 @@
 
 .card__content-link {
   color: #ba3428;
-  font-size: 1.8vmin;
+  font-size: 3vmin;
   display: block;
   cursor: pointer;
   opacity: 0.7;

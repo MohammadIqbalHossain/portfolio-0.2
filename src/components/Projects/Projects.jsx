@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Projects.scss";
 import { IoLogoGithub } from "react-icons/io";
 import { FaPlay } from "react-icons/fa";
@@ -39,7 +40,7 @@ const Projects = () => {
     <div className="container">
       <h2 className="projects__title">Projects</h2>
       <p className="projects__tagline">
-        Some projects I have working on and currently working...
+        Some projects I&apos;m working on...
       </p>
       <ul className="cards">
         {data.map((indexData, index) => (
@@ -62,17 +63,18 @@ const Projects = () => {
                 <div className="card__theme-header">
                   <p className="card__content-theme">{indexData.tagline}</p>
                   <div className="view-btns">
-                    <a
-                      href=""
+                    <Link
+                      to="https://github.com/MohammadIqbalHossain/rocket-rock-client-site"
                       className="github__view-btn"
-                      title="Open on Github"
+                      title="Github code"
+                      target='__blank'
                     >
                       <IoLogoGithub />
-                    </a>
+                    </Link>
 
-                    <a href="" className="preview-btn" title="Preview">
+                    <Link to="https://rocket-rock-cce05.web.app/" target='__blank' className="preview-btn" title="View live site">
                       <FaPlay />
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -96,9 +98,9 @@ const Projects = () => {
                       key={`${projectTech}-${index}`}
                       className="card__content-button"
                     >
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span>
                         {projectTech}
-                      </a>
+                      </span>
                     </button>
                   ))}
                 </div>
@@ -107,6 +109,7 @@ const Projects = () => {
           </li>
         ))}
       </ul>
+      
     </div>
   );
 };

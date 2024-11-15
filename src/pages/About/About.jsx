@@ -10,7 +10,7 @@ function About () {
             </div> */}
             <div className='about__content'>
                <span>Hi, There</span>
-               <h2 className='about__header-name'>I&apos;m Mohammad Iqbal Hossain.</h2>
+               <h2 className='about__header-name underline'>I&apos;m Mohammad Iqbal Hossain.</h2>
                <p className='about__content-details'>
                <span>
                I’m a product designer and developer living in Asheville.

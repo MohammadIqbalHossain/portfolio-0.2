@@ -1,15 +1,15 @@
 import { useState, React } from "react";
 import "../components/Navbar1.scss";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar1() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
+      <Link to="/" className="brand-name">
         Iqbal Hossain
-      </a>
+      </Link>
       <button
         className="hamburger"
         onClick={() => {

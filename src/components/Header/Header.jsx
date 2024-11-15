@@ -1,3 +1,4 @@
+import React from 'react';
 import "../Header/Header.scss";
 import image from "../../assets/In-profile__2_-removebg.png";
 import { RoughNotation } from "react-rough-notation";
@@ -7,7 +8,7 @@ const Header = () => {
     <div className="header">
       <div className="header__content">
         <h2 className="header__title">
-          Hello, I'm Iqbal, a{" "}
+          Hello, I&apos;m Iqbal, a{" "}
           <RoughNotation type="highlight" show={true} color="#fff176">
             developer
           </RoughNotation>{" "}

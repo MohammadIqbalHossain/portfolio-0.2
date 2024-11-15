@@ -1,5 +1,7 @@
+import React from 'react';
+
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../Projects/ProjectDetails.scss";
 import { RxExternalLink } from "react-icons/rx";
 
@@ -28,6 +30,8 @@ const ProjectDetails = () => {
   const filteredProject = detailData.filter((project) => project._id === id);
   console.log(filteredProject);
 
+  console.log(filteredProject[0].liveSiteLink);
+
   if (filteredProject.length === 0) {
     return <div>data not found.</div>;
   }
@@ -35,6 +39,10 @@ const ProjectDetails = () => {
   const image1 = filteredProject[0].image1;
   const image2 = filteredProject[0].image2;
   const image3 = filteredProject[0].image3;
+  const image4 = filteredProject[0].image4;
+
+
+
 
   return (
     <div className="project__details">
@@ -55,28 +63,28 @@ const ProjectDetails = () => {
 
       <div className="project__action-btns">
         <button className="project__action-btn live__action-btn" role="button">
-          <a href="#">
+          <Link to={filteredProject[0].liveSiteLink} target='__blank'>
             Live View
             <RxExternalLink />
-          </a>
+          </Link>
         </button>
         <button
           className="project__action-btn github__client-btn"
           role="button"
         >
-          <a href="#">
+          <Link to={filteredProject[0].githubFrontEnd} target='__blank'>
             GitHub→ Front-End
             <RxExternalLink />
-          </a>
+          </Link>
         </button>
         <button
           className="project__action-btn github__server-btn"
           role="button"
         >
-          <a href="#">
+          <Link to={filteredProject[0].githubBackendEnd} target='__blank'>
             GitHub→ Back-End
             <RxExternalLink />
-          </a>
+          </Link>
         </button>
       </div>
 
@@ -121,7 +129,7 @@ const ProjectDetails = () => {
         <div
           className="project__details-card"
           style={{
-            "--image": 'url("https://i.ibb.co/zJXcftt/breathing-knowlage.png")',
+            "--image": `url(${image4})`,
             "--angle": "7deg",
             "--x": "10%",
             "--y": "-7%",

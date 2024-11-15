@@ -2,6 +2,7 @@ import React from 'react';
 import "../Header/Header.scss";
 import image from "../../assets/In-profile__2_-removebg.png";
 import { RoughNotation } from "react-rough-notation";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -92,8 +93,12 @@ const Header = () => {
         </p>
 
         <div className="header-buttons">
-          <button className="header-button linkedin">View LinkedIn</button>
-          <button className="header-button github">View GitHub</button>
+          <button className="header-button linkedin">
+            <Link to="https://www.linkedin.com/in/iqbalhs" target="__blank">View LinkedIn</Link>
+          </button>
+          <button className="header-button github">
+          <Link to="https://github.com/MohammadIqbalHossain" target="__blank">View GitHub</Link>
+          </button>
         </div>
       </div>
       <div className="header__img_container">

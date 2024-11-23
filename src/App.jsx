@@ -9,6 +9,10 @@ import GetInTouch from "./pages/GetInTouch/GetInTouch";
 import About from './pages/About/About';
 import "./App.css";
 import Footer  from "./components/Footer/Footer";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
+
+
+
 
 function App() {
   return (
@@ -20,7 +24,10 @@ function App() {
           <Route path="/details/:id" element={<ProjectDetails />} />
           <Route path="/article" element={<Article />} />
           <Route path="/article/:id" element={<DetailArticle />} />
-          <Route path="/about" element={<About />}></Route>
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<PageNotFound />} />
+         
+          
         </Routes>
       
       </main>

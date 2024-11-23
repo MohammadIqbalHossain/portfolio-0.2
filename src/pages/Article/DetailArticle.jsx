@@ -68,7 +68,7 @@ const DetailArticle = () => {
                 Posted by <Link>Iqbal</Link>
               </h3>
 
-              {slices.map((slice, index) => (
+              {/* {slices.map((slice, index) => (
                 <p key={index}>
                   {slice.className ? (
                     <span className={slice.className}>
@@ -78,7 +78,15 @@ const DetailArticle = () => {
                     data.article.slice(slice.start, slice.end)
                   )}
                 </p>
-              ))}
+              ))} */}
+
+            
+                
+               <p className="first-character">{data.article.slice(0, 1)}</p>
+                
+           
+                <p className="blog-content">{data.article.slice(1)}</p>
+        
             </div>
           </div>
         </div>

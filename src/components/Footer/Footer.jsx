@@ -5,7 +5,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <div className='footer-container'>
-        <h4 className='copyright-text'>© 2023 Ultra by @justinmfarrugia</h4>
+        <h4 className='copyright-text'>© 2024 portfolio by @iqbalhossain</h4>
         <h3 className='extra-links'>
             <Link to='https://github.com/MohammadIqbalHossain' target='__blank'>Other sites</Link> - 
             <Link to='https://web.facebook.com/iqbal.abdullah.927543/' target='__blank'>Connect me</Link>
